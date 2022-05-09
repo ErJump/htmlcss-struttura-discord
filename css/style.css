@@ -11,13 +11,16 @@
 }
 
 header{
-    padding: 10px;
     background-color: #add8e6;
+}
+
+.header-first{
+    padding: 10px;
 }
 
 .head-content{
     display: flex;
-    width: 900px;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -55,7 +58,7 @@ li a{
 }
 
 .border{
-    border: 1px dashed black;
+    border: 2px dashed black;
 }
 
 .first-sec{
@@ -65,9 +68,9 @@ li a{
 }
 
 .first-sec-content{
-    width: 700px;
-    height: 320px;
-    margin:  auto;
+    width: 800px;
+    height: 480px;
+    margin: 0 auto;
     background-color: #ee82ee;
 }
 
@@ -81,13 +84,13 @@ li a{
 
 .col-l{
     flex-basis: 30%;
-    height: 390px;
+    height: 520px;
     background-color: #1e90ff;
 }
 .col-r{
     background-color:#ffc0cb;
     flex-basis: 20%;
-    height: 390px;
+    height: 520px;
 }
 
 .third-sec{
@@ -98,12 +101,78 @@ li a{
     padding: 40px 0;
 }
 
+.fourth-sec{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.fifth-sec{
+    background-color: #d3d3d3;
+    padding: 40px 0;
+}
+
+.fifth-sec-content{
+    width: 50%;
+    height: 850px;
+    margin: 0 auto;
+    background-color: #228b22;
+}
+
 footer{
-    padding: 10px;
-    background-color:black;
+    background-color: #23272a;
+}
+
+.footer-first{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 50%;
+    padding: 10px 0 40px 0;
+}
+
+.footer-l{
+    width: 33.3333%;
+    height: 520px;
+    background-color: #f08080;
+}
+
+.footer-r{
+    width: 66.6666%;
+    height: 520px;
+    background-color: #20b2aa;
+    display: flex;
+}
+
+.border-white{
+    border: 2px dashed white;
+    flex-basis: 25%;
+}
+
+.footer-second{
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 .footer-content{
-    padding: 10px;
+    width: 50%;
     background-color: #7fffd4;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.footer-content div{
+    background-color: #ffb6c1;
+    padding: 3px;
+}
+
+
+
